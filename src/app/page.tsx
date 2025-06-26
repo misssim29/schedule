@@ -16,6 +16,7 @@ export default function Home() {
 
   return (
     <div>
+      구글로그인
       {!isLogin ? (
         <button
           onClick={() => {
